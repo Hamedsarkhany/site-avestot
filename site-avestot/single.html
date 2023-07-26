@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="content/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="js/node_modules/flickity/dist/flickity.css">
+    <link rel="stylesheet" href="style/single/single-des.css" media="only screen and (min-width: 993px)">
+    <link rel="stylesheet" href="style/single/single-mobile.css" media="(max-width:992px)">
+
+    <link rel="stylesheet" href="style/fontawesome-free-6.4.0-web/css/all.css">
+
+    <link rel='stylesheet' id='font-flaticon-css' href='style/icon/flaticon.css_ver=2.9.7.css' type='text/css'media='all' />
+    <link rel='stylesheet' id='font-flaticon-v2-css' href='style/icon/flaticon-v2.css_ver=2.9.7.css' type='text/css'media='all' />
+    <link rel='stylesheet' id='font-flaticon-v3-css' href='style/icon/flaticon-v3.css_ver=2.9.7.css' type='text/css'media='all' />
+    <link rel='stylesheet' id='font-flaticon-v4-css' href='style/icon/flaticon-v4.css_ver=2.9.7.css' type='text/css'media='all' />
+    <link rel='stylesheet' id='font-flaticon-v5-css' href='style/icon/flaticon-v5.css_ver=2.9.7.css' type='text/css'media='all' />
+    <link rel='stylesheet' id='font-flaticon-v6-css' href='style/icon/flaticon-v6.css_ver=2.9.7.css' type='text/css'media='all' />
+    <link rel='stylesheet' id='font-flaticon-v7-css' href='style/icon/flaticon-v7.css_ver=2.9.7.css' type='text/css'media='all' />
+
+    
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js" defer></script>
+    <script src="js/node_modules/flickity/dist/flickity.pkgd.min.js" defer></script>
+    <script src="content/bootstrap/bootstrap.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+    <title>- single</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <a href="" title="اوستا"><img src="img/logo-light.png" alt="" style="max-height: 60px"></a>
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="search-box">
+                        <button class="search-btn">
+                            <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14.2084" cy="14.2085" r="7.75" fill="white" stroke="#263E6A" stroke-width="2.2"/>
+                                <path d="M25.8334 25.8335L21.9584 21.9585" stroke="#263E6A" stroke-width="2.2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <div id="searchbox">
+                            <form action="">
+                                <input id="input" type="search" name="" class="show-search bs"
+                                    placeholder="جستجو کنید...">
+                                <button type="submit" class="showsearch"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="header-button">
+                        <svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.6933 28.4706C26.1806 27.0088 25.0507 25.717 23.4789 24.7957C21.9071 23.8744 19.9812 23.375 18 23.375C16.0188 23.375 14.0929 23.8744 12.5211 24.7957C10.9494 25.717 9.81944 27.0088 9.30667 28.4706" stroke="#506A8B" stroke-width="2"/>
+                            <ellipse cx="18" cy="13.75" rx="4.5" ry="4.125" stroke="#506A8B" stroke-width="2" stroke-linecap="round"/>
+                            <rect x="4" y="3.75" width="28" height="25.5" rx="3" stroke="#506A8B" stroke-width="2"/>
+                        </svg>
+                        <a href="#" target="_self">پنل کاربری اوستا</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center" id="myHeader">
+                <div class="col-md-12">
+                    <div class="nav">
+                        <div class="row align-items-center">
+                            <div class="col-md-auto">
+                                <div class="ul-nav">
+                                    <ul class="list-item">
+
+                                        <li class="item"><a href="">صفحه اصلی</a></li>
+                                        <li class="item"><a href="">تیم ما</a></li>
+                                        <li class="item menu-item-130"><a href="">خدمات +</a>
+                                            <ul class="sub-menu">
+                                                <li><a href=""></a> sub</li>
+                                                <li><a href=""></a> sub</li>
+                                                <li><a href=""></a> sub</li>
+                                                <li><a href=""></a> sub</li>
+                                            </ul>
+                                        </li>
+                                        <li class="item"><a href="">مقالات</a></li>
+                                        <li class="item"><a href="">صفحه اصلی</a></li>
+                                        <li class="item"><a href="">تماس با ما</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- mobile haeder -->
+    <header class="mobile-header">
+        <div class="container">
+            <div class="row">
+                <div class="mob-heder-row">
+                    <div class="col-7">
+                        <a href="">
+                            <img src="img/logo-light-mobile.png" alt="" style="max-height: 50px;"">
+                        </a>
+                    </div>
+                        <div class=" col-5">
+                            <div class="ct-menu-mobile">
+                                <button class="menu-btn" onclick="toggleMenu"><i class="fa-solid fa-bars"></i></button>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <form action="">
+                <input type="search" name="" id="" class="search-mob"><i class="fa fa-search icon-option" aria-hidden="true"></i>
+            </form>
+            <div class="ul-nav">
+                <ul class="list-item">
+                    <li class="item"><a href="">صفحه اصلی</a></li>
+                    <li class="item"><a href="">تیم ما</a></li>
+                    <li class="item menu-item-130">خدمات +
+                        <ul class="sub-menu">
+                            <li><a href=""></a> sub</li>
+                            <li><a href=""></a> sub</li>
+                            <li><a href=""></a> sub</li>
+                            <li><a href=""></a> sub</li>
+                        </ul>
+                    </li>
+                    <li class="item"><a href="">مقالات</a></li>
+                    <li class="item"><a href="">صفحه اصلی</a></li>
+                    <li class="item"><a href="">تماس با ما</a></li>
+                </ul>
+            </div>
+            <div class="header-button">
+                <a class="" target="_self">پنل کاربری اوستا</a>
+            </div>
+            <div class="header-Support">
+                <div class="icon-header">
+                    <i class="flaticon-telephone text-gradient"></i>
+                </div>
+                <div class="meta-header">
+                    <label for=""> پشتیبانی</label><br>
+                    <span>۰۹۹۱۲۵۰۸۳۲۵- ۰۲۱۲۹۱۲۴۲۱۳</span>
+                </div>
+            </div>
+            <div class="header-Support header-email">
+                <div class="icon-header">
+                    <i class="flaticonv3-envelope text-gradient"></i>
+                </div>
+                <div class="meta-header">
+                    <label for=""> ایمیل ما</label><br>
+                    <span>info@avestot.com</span>
+                </div>
+            </div>
+            <div class="header-Support">
+                <div class="icon-header">
+                    <i class="flaticon-map text-gradient"></i>
+                </div>
+                <div class="meta-header">
+                    <label for=""> پشتیبانی</label><br>
+                    <span>تهران، بیمارستان عرفان سعادت آباد، بخش توانبخشی</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+
+
+    <!-- start main  -->
+    <main class="main">
+        <div class="container" style="padding-bottom: 80px;">
+            <div class="row">
+                <div class="col-lg-9 col-md-12 col-12">
+                <div class="blogorg">
+                    <p class="authorname">نویسنده: ادمین سایت</p>
+                    <p class="blogdate" style="color: gray;">1402/3/13</p>
+                    <h3 >آن سال و این سال&zwnj;ها</h3>
+                    <img src="https://rravagh.com/pics/in sal ha.webp/in sal ha.webp" alt="آن سال و این سال&zwnj;ها">
+                    <div class="blogtext">
+                        <h3>غم خوزستان دل هرکسی را به درد می&zwnj;آورد. چه مسلمان، چه غیر مسلمان. مردمانی که در حق طبیعی خود به نام آب با بحران مواجه شدند و مردمانی دیگر که برای حل این مشکل به مجاهدت و تلاش به پاخاستند.</h3>
+                                          <p>سال 96 تو شبکه های اجتماعی عکس عجیبی پخش شد… با یک دنیا حرف.</p>
+    
+    <p>مردم رفته بودن برای دعا و نماز بارون… در اون بین مردی بره&zwnj;اش رو تو بغل گرفته بود و رو به آسمون ملتمسانه دعا می&zwnj;کرد. انگار که به خدا میگفت: به این زبون بسته رحم کن…</p>
+    
+    <p>اون اتفاق از اون چیزهاییه که فقط با وجدان میشه فهمیدشون</p>
+    
+    <p>بعد از اون دعاها، داستان عوض شد و نزولات آسمانی بود که بهمون جون دوباره داد.</p>
+    
+    <p><img alt="" src="https://rravagh.com/ravaghh/pics/baran.jpg/baran.jpg"></p>
+    
+    <p>اتفاقی که اون سال افتاد این بود که اگر همه&zwnj;ی هواشناسی&zwnj;های دنیا بگن برف و بارون نمیاد، اگر خدا بخواد میاد و اگر واقعا… ملتمسانه از خدا بخوایم… خدا نگاهمون میکنه</p>
+    
+    <p>حالا از اون روزها 4 سال گذشته و دوباره قصه&zwnj;ی ما به صفحات خشکی رسیده</p>
+    
+    <p>نه پاییزی نه زمستونی نه بارونی… هیچی که هیچی</p>
+    
+    <p>بیا رفیق! بیا از تمسخرها نترسیم… نگران سوء استفاده&zwnj;ها نباشیم… بیا تا دیر نشده به خدا التماس کنیم قبل از اینکه دیگه صدای التماسون هم درنیاد و نتونیم دعا کنیم</p>
+    
+    <p>بیا به خدا بگیم: خدایا… بارون رحمتت رو از ما دریغ نکن… ما بدیم اما تو خدای خوبی هستی.</p>
+                    </div>
+                    <span>
+                            <form action="https://rravagh.com/posttags" id="4">
+                        <input type="hidden" name="q" value="باران">
+                    </form>
+                    <p  class="signle-tag" onclick="document.getElementById('4').submit();">باران</p>, 
+                                    <form action="https://rravagh.com/posttags" id="5">
+                        <input type="hidden" name="q" value="خشکسالی">
+                    </form>
+                    <p class="signle-tag" onclick="document.getElementById('5').submit();">خشکسالی</p>, 
+                                    <form action="https://rravagh.com/posttags" id="6">
+                        <input type="hidden" name="q" value="دعا">
+                    </form>
+                    <p class="signle-tag" onclick="document.getElementById('6').submit();">دعا</p>, 
+                                </span>
+                </div>
+                <div class="prodtabcontent" style="display: block;">
+                  <h3>نظرات کاربران</h3>
+                    <div class="addcomment">
+                        <form action="" method="POST">
+                          <input type="hidden" name="_token" value="Kc7J0vF8SLCZwwBkG1aP3BZM8s4DsS72mcHVcppY"> 
+                          <input type="hidden" name="post_id" value="9">
+                                                <div class="row">
+                              <div class="col-md-6">
+                                  <div class="namepl">
+                                      <label for="mail">ایمیل</label>
+                                      <input type="email" name="email" id="mail">
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="namepl">
+                                      <label for="firstname">نام و نام خانوادگی</label>
+                                      <input type="text" name="name" id="firstname" required="">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-12">
+                              <div class="commentpl">
+                                  <label for="yourcomment">دیدگاه شما</label><br>
+                                  <textarea id="yourcomment" name="content" rows="4" required=""></textarea>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div style="border: 1px solid rgb(160, 160, 255); border-radius:10px; padding:7px;">
+                                <img src="https://rravagh.com/captcha/default?RitjxJMJ" style="width:60%; display:block; margin-left:auto; margin-right:auto; margin-bottom:5px;">
+                                <div class="wrap-input100 validate-input" data-validate="کپچا به درستی وارد نشده است">
+                                    <input type="text" name="captcha" class=" input100" placeholder="کد کپچا" id="id_capctha" required="">
+                                    <span class="focus-input100"></span>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                              <input type="submit" value="فرستادن دیدگاه">
+                          </div>
+                        </form>
+                  </div>
+                </div>            
+            </div>
+            <div class="col-lg-3 col-md-12 col-12">
+                <div class="side-3" style="margin-top: 70px;">
+                    <div class="sidehead">
+                      <h4>محتوای مرتبط</h4>
+                    </div>
+                    <div class="sidebody">
+                      <ul>
+                                          </ul>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+    </main>
+    <!-- end main -->
+
+
+
+
+    <!-- start footer -->
+    <footer class="footer-nav">
+        <div class="container">
+            <div class="footer-cont">
+                <div class="row">
+                    <div class="footer-row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="foo-logo">
+                                <div class="logo">
+                                    <a href="" title="اوستا"><img src="img/logo-light.png" alt=""
+                                            style="max-height: 60px"></a>
+                                </div>
+                                <p>اوستا مجموعه توانبخشی است که همواره سعی در رفع مشکلات افراد نیازمند به خدمات این
+                                    مجموعه را دارد</p>
+                                <div class="foo-btn">
+                                    <a class="footer-button" target="_self">درباره ما</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="foo-title">
+                                <h4>خبرنامه</h4>
+                                <p>ا عضویت در خبرنامه ما می توانید به بروز ترین مقالات ما و تجربیات مراجعین دسترسی داشته
+                                    باشید </p>
+                                <div>
+                                    <form action="" class="foo-form">
+                                        <input id="input" type="email" name="ایمیل" class="foo-emali"
+                                            placeholder="عضویت در خبرنامه">
+                                        <button type="submit">
+                                            <i class="fab fa-telegram"></i> 
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="icon-contact">
+                                    <a href=""><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i aria-hidden="true" class="fab fa-twitter"></i></a>
+                                    <a href=""><i aria-hidden="true" class="fab fa-dribbble"></i></a>
+                                    <a href=""><i class="fab fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="foo-title">
+                                <h4>درباره ما</h4>
+                                <div class="foo-list">
+                                    <ul class="foo-ul">
+                                        <li>
+                                            <i class="fas fa-map-marker-alt" style="color: aqua;"></i>
+                                            <span>
+                                                بیمارستان عرفان سعادت آباد، بخش توانبخشی
+                                                ایران،تهران
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                            <span>
+                                                ۰۹۹۱۲۵۰۸۳۲۵-۰۲۱۲۹۱۸۴۲۱۳
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p>ساعت کاری:</p>
+                                <p>شنبه تا پنج شنبه:۸صبح تا ۵عصر</p>
+                                <p>جمعه: تعطیل</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="foo-title">
+                                <h4>پیشفرض</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-design">
+            <p>تمامی حقوق محفوظ است . توسط تیم پرتلاش وبیتو</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    
+
+    
+</body>
+</html>
